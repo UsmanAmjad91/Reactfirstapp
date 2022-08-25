@@ -1,11 +1,7 @@
 import React from "react";
 
  class ComponentwillUnmount extends React.Component {
-    constructor(){
-        super();
-       this.state={toggle:true}
-    
-    }
+   
 
    componentWillUnmount(){
     alert("User will bw here");
@@ -23,7 +19,7 @@ import React from "react";
 
               </ul>
             
-              <button onClick={()=>{this.setState({toggle:!this.state.toggle})}}>Update state</button>
+             
             </div>
         )
     }
